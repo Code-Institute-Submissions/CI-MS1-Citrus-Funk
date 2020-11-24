@@ -1,33 +1,67 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
+	color: #d2d2d3;
 }
 
 /* ---------- Navigation ---------- */
 
 .navbar {
-    background-color: #424242;
+	background-color: #424242;
 }
 
 .logo-image {
-    height: 50px;
-    width: 50px;
+	height: 50px;
+	width: 50px;
 }
 
 .navbar .navbar-toggler {
-    border: 0;
+	border: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #d2d2d3;
+	color: #d2d2d3;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #d7b380;
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+	color: #d7b380;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: #b6b7b4;
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #b6b7b4;
 }
 
+/* ---------- Home Page ---------- */
 
+.home-page-container {
+	height: 100vh;
+	background: url(../images/background-image.jpg) no-repeat center center
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
 
+.background-header {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	text-align: center;
+	top: 30%;
+	font-family: "Chango", cursive;
+	color: #d2d2d3;
+    font-weight: 300;
+    font-size: larger;
+}
+
+.background-header p {
+    font-family: "Montserrat", sans-serif;
+}
