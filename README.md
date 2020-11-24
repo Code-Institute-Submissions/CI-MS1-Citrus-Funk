@@ -64,7 +64,21 @@ There will also be a external PDF links to their full repertoire and pricing lis
 There will be a contact form as well as another external link to a booking website.
 
 ### **Skeleton**
-*Wireframes to be added*
+
+[Wireframes](assets/docs/CitrusFunkWireframes)
+
+[Home Wireframe](assets/docs/HomePageWireframe) - [Mobile Version](assets/docs/HomePageWireframeMobile)
+
+[About Wireframe](assets/docs/AboutPageWireframe) - [Mobile Version](assets/docs/AboutPageWireframeMobile)
+
+[Repertoire Wireframe](assets/docs/RepertoirePageWireframe) - [Mobile Version](assets/docs/RepertoirePageWireframeMobile)
+
+[Music Wireframe](assets/docs/MusicPageWireframe) - [Mobile Version](assets/docs/MusicPageWireframeMobile)
+
+[Gallery Wireframe](assets/docs/GalleryPageWireframe) - [Mobile Version](assets/docs/GalleryPageWireframeMobile)
+
+[Contact Wireframe](assets/docs/ContactPageWireframe) - [Mobile Version](assets/docs/ContactPageWireframeMobile)
+
 
 - One page site with fixed header
 - Background image for home page
