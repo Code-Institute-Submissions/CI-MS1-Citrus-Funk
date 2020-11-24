@@ -1,45 +1,119 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **Citrus Funk**
 
-Welcome USER_NAME,
+## Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+ Citrus Funk are a five-piece party band based in Leeds, United Kingdom.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+---
 
-`python3 -m http.server`
+## Description
 
-A blue button should appear to click: *Make Public*,
+This project is a site for my cousins band, Citrus Funk. It aims to promote their music and give them further exposure to help generate a larger fan base.
 
-Another blue button should appear to click: *Open Browser*.
+---
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## UX
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+>  *"I’ve heard about this band and want to know more about them!*
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+>  *“I saw them at a gig, where can I find their social media?”*
 
-## Updates Since The Instructional Video
+>  *“A friend of mine recommended them, how do I book them?”*
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+>  *“I want to be able to see what songs they play and listen to their music.”*
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+>  *“I want to know who they are and where are they from.”*
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### **Strategy**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### External User's Goals
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Current or potential fans who want to learn about the bands:
+* *Music*
+* *Repertoire*
+* *Background*
+* *Members*
+* *Social Media*
+* *Booking*
+* *Pricing*
+* *Location*
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Site Owner's Goals
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* *Expanding the bands brand*
+* *Get more bookings*
+* *Promote their music*
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### **Scope**
 
---------
+Visually appealing website with lots of imagery.
 
-Happy coding!
+Defines who the band members are, what's their music and where they can be found.
+
+### **Structure**
+
+I want to structure the site with a combination of images, video and short but informative paragraphs.
+
+I want the site to link externally to their Youtube and other social media so user's can see and listen to their music.
+
+There will also be a external PDF links to their full repertoire and pricing list.
+
+There will be a contact form as well as another external link to a booking website.
+
+### **Skeleton**
+*Wireframes to be added*
+
+- One page site with fixed header
+- Background image for home page
+- Gallery
+- Full screen video
+- Links to their youtube videos
+- Contact form
+
+### **Surface**
+
+Color scheme:
+- Will match the professional photos taken of the band.
+- These colours will be a mix of green, brown, black, grey and white. With hints of red, orange and yellow, matching the logo.
+
+Images:
+- From Citrus Funk's social media.
+
+Video:
+- Promo video from Citrus Funk's social media. 
+
+Fonts: 
+- Chango
+- Montserrat
+
+---
+
+## Features
+
+HTML5
+
+CSS3
+
+Bootstrap4
+
+Single Page Site
+
+Fixed Navigation
+
+External PDF links to repertoire and pricing lists
+
+Promo Video
+
+Gallery
+
+Contact form
+
+---
+
+
+
+
+##### ...To Be Updated...
