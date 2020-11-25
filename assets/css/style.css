@@ -162,3 +162,12 @@ body {
     font-weight: 400;
     font-size: 75%;
 }
+
+.rep-video-container, .rep-video {
+    padding: 0;
+}
+
+.rep-video-container video{
+    width: 100%;
+    height: auto;
+}
