@@ -139,3 +139,21 @@ body {
         font-size: 150%;
     }
 }
+
+/* ---------- Repertoire Page ---------- */
+
+.rep-page-container {
+    text-align: center;
+    background-color: #ccae984d;
+    color: #37302E;
+}
+
+.rep-page-container h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Chango', cursive;
+}
