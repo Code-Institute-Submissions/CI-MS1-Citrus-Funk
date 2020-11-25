@@ -64,4 +64,12 @@ body {
 
 .background-header p {
     font-family: "Montserrat", sans-serif;
+    letter-spacing: 8px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
 }
