@@ -157,3 +157,8 @@ body {
     text-transform: uppercase;
     font-family: 'Chango', cursive;
 }
+
+.rep-section-container p {
+    font-weight: 400;
+    font-size: 75%;
+}
