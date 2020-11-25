@@ -205,3 +205,22 @@ body {
 .music-section-container {
     padding-bottom: 50px;
 }
+
+@media screen and (min-width: 1200px) {
+    .embed-video a {
+        font-size: 120px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .embed-icon {
+        padding-top: 60px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .embed-icon {
+        padding-top: 80px
+    }
+}
+
