@@ -20,6 +20,9 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
 	color: #d2d2d3;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 80%;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -55,7 +58,7 @@ body {
 	margin: 0 auto;
 	left: 0;
 	text-align: center;
-	top: 30%;
+	top: 25%;
 	font-family: "Chango", cursive;
 	color: #d2d2d3;
     font-weight: 300;
