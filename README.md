@@ -127,7 +127,23 @@ Contact form
 
 ---
 
+## Resources
 
+[Image Color](https://image-color.com/) - for color palette
+
+[Balsamiq](https://balsamiq.com/) - for wireframes
+
+[FontAwesome](https://fontawesome.com/) - for icons
+
+[Google Fonts](https://fonts.google.com/) - for fonts
+
+---
+
+## Project Barriers and Solutions
+
+- Initial home page wireframe had the headings/text right of center. Due to a slight colour clash with the background image I changed it to being left of center.
+
+---
 
 
 ##### ...To Be Updated...
