@@ -184,9 +184,24 @@ body {
 .music-page-container h2 {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     font-size: 200%;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-family: 'Chango', cursive;
+}
+
+.embed-video {
+    padding-top: 50px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.embed-video a {
+    color: #d7b380;
+    font-size: 80px;
+}
+
+.music-section-container {
+    padding-bottom: 50px;
 }
