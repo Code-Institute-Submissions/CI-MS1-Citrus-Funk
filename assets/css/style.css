@@ -80,7 +80,24 @@ body {
 /* ---------- About Page ---------- */
 
 .about-page-container {
+    text-align: center;
+    background-color: #9A9F95;
+    color: #37302E;
+}
 
+.about-page-container h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 200%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Chango', cursive;
+}
+
+.about-page-container p {
+    font-style: italic;
+    text-transform: lowercase;
 }
 
 .about-section-container {
@@ -88,5 +105,5 @@ body {
 }
 
 .about-images-container {
-    
+
 }
