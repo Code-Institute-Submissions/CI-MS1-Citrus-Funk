@@ -79,6 +79,12 @@ body {
 
 /* ---------- About Page ---------- */
 
+.about-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
 .about-page-container {
     text-align: center;
     background-color: #9A9F95;
@@ -95,15 +101,41 @@ body {
     font-family: 'Chango', cursive;
 }
 
-.about-page-container p {
-    font-style: italic;
-    text-transform: lowercase;
-}
-
 .about-section-container {
 
 }
 
-.about-images-container {
+.about-section-container p {
+    font-weight: 500;
+}
 
+.about-images-container {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.about-images-container h3 {
+    padding-top: 20px;
+    font-size: 200%
+}
+
+.about-images-container p {
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: 92%;
+}
+
+@media screen and (max-width: 768px) {
+    .about-image {
+        margin-top: 50px;
+    }
+    .about-images-container {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about-images-container h3 {
+        font-size: 150%;
+    }
 }
