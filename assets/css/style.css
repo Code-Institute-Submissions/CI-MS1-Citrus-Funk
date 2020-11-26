@@ -202,6 +202,11 @@ body {
     font-size: 80px;
 }
 
+.embed-video .youtube-link {
+    color: #d7b380;
+    font-size: 100%;
+}
+
 .music-section-container {
     padding-bottom: 50px;
 }
