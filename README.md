@@ -137,13 +137,30 @@ Contact form
 
 [Google Fonts](https://fonts.google.com/) - for fonts
 
+[CSS Tricks](https://css-tricks.com/) - for general help
+
+[Stack Overflow](https://stackoverflow.com/) - for general help
+
 ---
 
 ## Project Barriers and Solutions
 
 - Initial home page wireframe had the headings/text right of center. Due to a slight colour clash with the background image I changed it to being left of center.
+- Had an issue with pushing a video as the file was too big. I edited the file and then changed it but still had a problem with the previous commit. [JimLynx](https://github.com/JimLynx) from Code Institute Slack group helped me with this [Stack Overflow link.](
+https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
 
 ---
+
+## Credits
+
+### Images and videos
+
+Images are taken from the Citrus Funk social media sites. [Youtube](https://www.youtube.com/channel/UCVdfhJitt4u6PKKVKD81Ldw/featured), [Instagram](https://www.instagram.com/citrusfunkuk/?hl=en), [Facebook.](https://www.facebook.com/citrusfunk/)
+
+### Written Content
+
+Content is taken from the Citrus Funk social media sites. [Instagram](https://www.instagram.com/citrusfunkuk/?hl=en), [Facebook.](https://www.facebook.com/citrusfunk/)
+
 
 
 ##### ...To Be Updated...
