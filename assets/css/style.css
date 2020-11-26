@@ -379,7 +379,7 @@ label {
 
 .footer-icon {
     text-align: center;
-    padding: 0;
+    padding: 5px 0;
 }
 
 .footer-container {
@@ -388,8 +388,10 @@ label {
 
 .footer-container i {
     font-size: 300%;
+	color: #d2d2d3;
 }
 
 .footer-container p {
     font-size: 50%;
+    margin: 0 auto;
 }
