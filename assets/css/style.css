@@ -312,7 +312,6 @@ body {
 /* ---------- Contact Page ---------- */
 
 .contact-page-container {
-    text-align: center;
     background-color: #9A9F95;
     color: #37302E;
 }
@@ -325,4 +324,25 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-family: 'Chango', cursive;
+}
+
+.contact-section-container {
+    padding-bottom: 20px;
+}
+
+label {
+    margin-top: 8px;
+}
+
+.form-button {
+    background-color: #d7b380;
+    color: #37302E; 
+    border-color:#37302E;
+}
+
+.form-control {
+    font-weight: 100;
+    font-size: 75%;
+    border-radius: 1.25em;
+    color:#37302E;
 }
