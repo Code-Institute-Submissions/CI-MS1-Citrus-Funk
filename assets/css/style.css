@@ -364,3 +364,13 @@ label {
     background-color: #d7b380;
     border-color: #37302E;
 }
+
+.contact-section-container .card {
+    border: none;
+    background-color: #9A9F95;
+}
+
+.contact-section-container .card-img-top {
+    border-top-right-radius: none;
+    border-top-left-radius: none;
+}
