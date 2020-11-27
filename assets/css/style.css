@@ -3,6 +3,11 @@ body {
 	color: #d2d2d3;
 }
 
+.anchor { /*-----  <-- Used help from https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors -----*/
+    padding: 25px 0;
+    background-color: #9A9F95;
+}
+
 /* ---------- Navigation ---------- */
 
 .navbar {
@@ -421,7 +426,7 @@ label {
     border-top-left-radius: none;
 }
 
-/* ---------- Contact Page ---------- */
+/* ---------- Footer ---------- */
 
 .footer-icon {
     text-align: center;
