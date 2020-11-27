@@ -397,6 +397,14 @@ label {
     font-style: italic;
 }
 
+.card img {
+    opacity: 0.5;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+
 .btn-primary {
     color: #37302E;
     background-color: #d7b380;
