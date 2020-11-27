@@ -251,8 +251,28 @@ body {
 
 .gallery-page-container {
     text-align: center;
-    background-color: #9A9F95;
-    color: #37302E;
+    /* background-color: #9A9F95;
+    color: #37302E; */
+    background: url(../images/citrusfunk10.jpg) no-repeat center center
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	position: relative;
+    /* background-color: #ccae984d;
+    color: #37302E; */
+}
+
+.gallery-opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    right: -0;
 }
 
 .gallery-page-container h2 {
@@ -296,13 +316,13 @@ body {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  opacity: 0.3;
-  border-radius: 10%
+  border-radius: 10%;
+  border: 1px solid #9A9F9580;
 }
 
-.gallery-column img:hover {
+/* .gallery-column img:hover {
     opacity: 1;
-}
+} */
 
 @media screen and (max-width: 992px) {
   .gallery-column {
