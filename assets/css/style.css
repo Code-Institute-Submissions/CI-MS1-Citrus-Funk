@@ -144,8 +144,26 @@ body {
 
 .rep-page-container {
     text-align: center;
-    background-color: #ccae984d;
-    color: #37302E;
+    background: url(../images/citrusfunk9.jpg) no-repeat center center
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	position: relative;
+    /* background-color: #ccae984d;
+    color: #37302E; */
+}
+
+.rep-opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .65);
+    right: -0;
 }
 
 .rep-page-container h2 {
