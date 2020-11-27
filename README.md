@@ -141,6 +141,11 @@ Contact form
 
 [Stack Overflow](https://stackoverflow.com/) - for general help
 
+[W3Schools](https://www.w3schools.com/) - for general help
+
+[YouTube](https://youtube.com) - for general help
+
+
 ---
 
 ## Project Barriers and Solutions
