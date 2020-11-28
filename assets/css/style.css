@@ -100,12 +100,19 @@ body {
 .about-page-container h2 {
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 	font-size: 200%;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-family: "Chango", cursive;
     margin: 0 auto;
+}
+
+.heading-icon {
+	text-align: center;
+    margin: 0 auto;
+    font-size: 200%;
+    padding-bottom: 25px;
 }
 
 .about-section-container {
