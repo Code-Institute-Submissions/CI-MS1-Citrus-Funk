@@ -105,13 +105,20 @@ body {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-family: "Chango", cursive;
+    margin: 0 auto;
 }
 
 .about-section-container {
+    border: 1px solid #424242;
+    background-color: #9a9f95;
+    padding: 5px 0;
 }
 
 .about-section-container p {
 	font-weight: 500;
+    margin: 0 auto;
+    letter-spacing: -1px;
+    padding: 5px;
 }
 
 .about-images-container {
@@ -129,6 +136,8 @@ body {
 	font-style: italic;
 	text-transform: lowercase;
 	font-size: 92%;
+    margin: 0 auto;
+    padding: 5px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -174,11 +183,14 @@ body {
 .rep-page-container h2 {
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
 	font-size: 200%;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-family: "Chango", cursive;
+}
+
+.rep-section-container {
+    padding: 50px 0;
 }
 
 .rep-section-container h3 {
@@ -300,11 +312,11 @@ body {
 .gallery-section-container {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0;
+	padding: 42px 0 50px 0;
 }
 
 .gallery-section {
-	padding-bottom: 20px;
+	padding: 0;
 }
 
 .gallery-column {
@@ -374,7 +386,11 @@ body {
 }
 
 .contact-section-container {
-	padding-bottom: 20px;
+	padding: 50px 0;
+}
+
+.contact-section-container form {
+    padding: 0 15px 50px 15px;
 }
 
 label {
@@ -423,11 +439,19 @@ label {
 .contact-section-container .card {
 	border: none;
 	background-color: #9a9f95;
+    margin-top: 25px;
+    text-align: center;
 }
 
 .contact-section-container .card-img-top {
 	border-top-right-radius: none;
 	border-top-left-radius: none;
+}
+
+@media screen and (max-width: 576px) {
+	.contact-section-container form {
+        text-align: center;
+    }
 }
 
 /* ---------- Footer ---------- */
