@@ -5,8 +5,63 @@ body {
 
 .anchor {
 	/*-----  <-- Used help from https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors -----*/
-	padding: 25px 0;
+	padding: 10px 0;
 	background-color: #9a9f95;
+	overflow: hidden;
+	position: relative;
+}
+
+/*----- Entire .anchor p code below taken and altered from https://www.quackit.com/css/codes/marquees/-----*/
+.anchor p {
+	font-size: 100%;
+	color: #424242;
+	/* position: absolute; */
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	/* line-height: 50px; */
+	text-align: center;
+	/* Starting position */
+	-moz-transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	/* Apply animation to this element */
+	-moz-animation: anchor 45s linear infinite;
+	-webkit-animation: anchor 45s linear infinite;
+	animation: anchor 45s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes anchor {
+	0% {
+		-moz-transform: translateX(100%);
+	}
+	100% {
+		-moz-transform: translateX(-100%);
+	}
+}
+@-webkit-keyframes anchor {
+	0% {
+		-webkit-transform: translateX(100%);
+	}
+	100% {
+		-webkit-transform: translateX(-100%);
+	}
+}
+@keyframes anchor {
+	0% {
+		-moz-transform: translateX(100%); /* Firefox bug fix */
+		-webkit-transform: translateX(100%); /* Firefox bug fix */
+		transform: translateX(100%);
+	}
+	100% {
+		-moz-transform: translateX(-100%); /* Firefox bug fix */
+		-webkit-transform: translateX(-100%); /* Firefox bug fix */
+		transform: translateX(-100%);
+	}
+}
+
+.anchor a {
+	color: #884E44;
 }
 
 /* ---------- Navigation ---------- */
@@ -105,27 +160,27 @@ body {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-family: "Chango", cursive;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .heading-icon {
 	text-align: center;
-    margin: 0 auto;
-    font-size: 200%;
-    padding-bottom: 25px;
+	margin: 0 auto;
+	font-size: 200%;
+	padding-bottom: 25px;
 }
 
 .about-section-container {
-    border: 1px solid #424242;
-    background-color: #9a9f95;
-    padding: 5px 0;
+	border: 1px solid #424242;
+	background-color: #9a9f95;
+	padding: 5px 0;
 }
 
 .about-section-container p {
 	font-weight: 500;
-    margin: 0 auto;
-    letter-spacing: -1px;
-    padding: 5px;
+	margin: 0 auto;
+	letter-spacing: -1px;
+	padding: 5px;
 }
 
 .about-images-container {
@@ -143,8 +198,8 @@ body {
 	font-style: italic;
 	text-transform: lowercase;
 	font-size: 92%;
-    margin: 0 auto;
-    padding: 5px 0;
+	margin: 0 auto;
+	padding: 5px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -197,12 +252,12 @@ body {
 }
 
 .rep-section-container {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 .rep-section-container h3 {
 	font-family: "Chango", cursive;
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .rep-section-container p {
@@ -397,16 +452,16 @@ body {
 }
 
 .contact-section-container form {
-    padding: 0 15px 25px 15px;
-    margin-top: 25px;
-    background-color: #9a9f95;
+	padding: 0 15px 25px 15px;
+	margin-top: 25px;
+	background-color: #9a9f95;
 }
 
 .contact-section-container legend {
-    font-family: 'Chango', cursive;
-    letter-spacing: 1px;
-    text-decoration: underline;
-    padding-top: 5px;
+	font-family: "Chango", cursive;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	padding-top: 5px;
 }
 
 label {
@@ -429,7 +484,7 @@ label {
 .card-title {
 	letter-spacing: 1px;
 	text-decoration: underline;
-    font-family: "Chango", cursive;
+	font-family: "Chango", cursive;
 }
 
 .card-text {
@@ -447,7 +502,7 @@ label {
 }
 
 .contact-info-card {
-    padding: 0;
+	padding: 0;
 }
 
 .btn-primary {
@@ -459,8 +514,8 @@ label {
 .contact-section-container .card {
 	border: none;
 	background-color: #9a9f95;
-    margin-top: 25px;
-    text-align: center;
+	margin-top: 25px;
+	text-align: center;
 }
 
 .contact-section-container .card-img-top {
@@ -470,8 +525,8 @@ label {
 
 @media screen and (max-width: 576px) {
 	.contact-section-container form {
-        text-align: center;
-    }
+		text-align: center;
+	}
 }
 
 /* ---------- Footer ---------- */
