@@ -3,9 +3,10 @@ body {
 	color: #d2d2d3;
 }
 
-.anchor { /*-----  <-- Used help from https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors -----*/
-    padding: 25px 0;
-    background-color: #9A9F95;
+.anchor {
+	/*-----  <-- Used help from https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors -----*/
+	padding: 25px 0;
+	background-color: #9a9f95;
 }
 
 /* ---------- Navigation ---------- */
@@ -25,9 +26,9 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
 	color: #d2d2d3;
-    letter-spacing: 2px;
-    font-weight: 200;
-    font-size: 80%;
+	letter-spacing: 2px;
+	font-weight: 200;
+	font-size: 80%;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -66,91 +67,90 @@ body {
 	top: 25%;
 	font-family: "Chango", cursive;
 	color: #d2d2d3;
-    font-weight: 300;
-    font-size: larger;
+	font-weight: 300;
+	font-size: larger;
 }
 
 .background-header p {
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: 8px;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 8px;
 }
 
 .opaque-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .6);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* ---------- About Page ---------- */
 
 .about-image {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
 }
 
 .about-page-container {
-    text-align: center;
-    background-color: #9A9F95;
-    color: #37302E;
+	text-align: center;
+	background-color: #9a9f95cc;
+	color: #37302e;
 }
 
 .about-page-container h2 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-family: 'Chango', cursive;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 200%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: "Chango", cursive;
 }
 
 .about-section-container {
-
 }
 
 .about-section-container p {
-    font-weight: 500;
+	font-weight: 500;
 }
 
 .about-images-container {
-    padding-top: 20px;
-    padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
 }
 
 .about-images-container h3 {
-    padding-top: 20px;
-    font-size: 200%
+	font-family: "Chango", cursive;
+	padding-top: 20px;
+	/* font-size: 200% */
 }
 
 .about-images-container p {
-    font-style: italic;
-    text-transform: lowercase;
-    font-size: 92%;
+	font-style: italic;
+	text-transform: lowercase;
+	font-size: 92%;
 }
 
 @media screen and (max-width: 768px) {
-    .about-image {
-        margin-top: 50px;
-    }
-    .about-images-container {
-        padding-top: 0px;
-    }
+	.about-image {
+		margin-top: 50px;
+	}
+	.about-images-container {
+		padding-top: 0px;
+	}
 }
 
 @media screen and (max-width: 992px) {
-    .about-images-container h3 {
-        font-size: 150%;
-    }
+	.about-images-container h3 {
+		font-size: 150%;
+	}
 }
 
 /* ---------- Repertoire Page ---------- */
 
 .rep-page-container {
-    text-align: center;
-    background: url(../images/citrusfunk9.jpg) no-repeat center center
-		fixed;
+	text-align: center;
+	background: url(../images/citrusfunk9.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -159,107 +159,112 @@ body {
 	align-items: center;
 	justify-content: center; */
 	position: relative;
-    /* background-color: #ccae984d;
+	/* background-color: #ccae984d;
     color: #37302E; */
 }
 
 .rep-opaque-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .65);
-    right: -0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.65);
+	right: -0;
 }
 
 .rep-page-container h2 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-family: 'Chango', cursive;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 200%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: "Chango", cursive;
+}
+
+.rep-section-container h3 {
+	font-family: "Chango", cursive;
+    text-decoration: underline;
 }
 
 .rep-section-container p {
-    font-weight: 400;
-    font-size: 75%;
+	font-weight: 400;
+	font-size: 75%;
 }
 
-.rep-video-container, .rep-video {
-    padding: 0;
+.rep-video-container,
+.rep-video {
+	padding: 0;
 }
 
-.rep-video-container video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.rep-video-container video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 /* ---------- Music Page ---------- */
 
 .music-page-container {
-    text-align: center;
-    background-color: #9A9F95;
-    color: #37302E;
+	text-align: center;
+	background-color: #9a9f95cc;
+	color: #37302e;
 }
 
 .music-page-container h2 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-family: 'Chango', cursive;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-size: 200%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: "Chango", cursive;
 }
 
 .embed-video {
-    padding-top: 50px;
-    padding-right: 0;
-    padding-left: 0;
+	padding-top: 50px;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .embed-video a {
-    color: #d7b380;
-    font-size: 80px;
+	color: #d7b380;
+	font-size: 80px;
 }
 
 .embed-video .youtube-link {
-    color: #d7b380;
-    font-size: 100%;
+	color: #d7b380;
+	font-size: 100%;
 }
 
 .music-section-container {
-    padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 @media screen and (min-width: 1200px) {
-    .embed-video a {
-        font-size: 120px;
-    }
+	.embed-video a {
+		font-size: 120px;
+	}
 }
 
 @media screen and (min-width: 768px) {
-    .embed-icon {
-        padding-top: 60px
-    }
+	.embed-icon {
+		padding-top: 60px;
+	}
 }
 
 @media screen and (min-width: 992px) {
-    .embed-icon {
-        padding-top: 80px
-    }
+	.embed-icon {
+		padding-top: 80px;
+	}
 }
 
 /* ---------- Gallery Page ---------- */
 
 .gallery-page-container {
-    text-align: center;
-    /* background-color: #9A9F95;
+	text-align: center;
+	/* background-color: #9A9F95;
     color: #37302E; */
-    background: url(../images/citrusfunk10.jpg) no-repeat center center
-		fixed;
+	background: url(../images/citrusfunk10.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -268,61 +273,60 @@ body {
 	align-items: center;
 	justify-content: center; */
 	position: relative;
-    /* background-color: #ccae984d;
+	/* background-color: #ccae984d;
     color: #37302E; */
 }
 
 .gallery-opaque-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .8);
-    right: -0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	right: -0;
 }
 
 .gallery-page-container h2 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-family: 'Chango', cursive;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 200%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: "Chango", cursive;
 }
 
 /* Altered CSS code snippet below from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 
-
 .gallery-section-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
 }
 
 .gallery-section {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .gallery-column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
 }
 
 .gallery-column-1 {
-    padding-top: 30px;
+	padding-top: 30px;
 }
 
 .gallery-column-3 {
-    padding-top: 30px;
+	padding-top: 30px;
 }
 
 .gallery-column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  border-radius: 10%;
-  border: 1px solid #9A9F9580;
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	border-radius: 10%;
+	border: 1px solid #9a9f9580;
 }
 
 /* .gallery-column img:hover {
@@ -330,107 +334,107 @@ body {
 } */
 
 @media screen and (max-width: 992px) {
-  .gallery-column {
-    flex: 50%;
-    max-width: 50%;
-  }
+	.gallery-column {
+		flex: 50%;
+		max-width: 50%;
+	}
 }
 
 @media screen and (max-width: 576px) {
-  .gallery-column {
-    flex: 100%;
-    max-width: 100%;
-    padding: 0;
-  }
+	.gallery-column {
+		flex: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
 
-  .gallery-column img {
-      margin: 0;
-      border-radius: 0;
-  }
+	.gallery-column img {
+		margin: 0;
+		border-radius: 0;
+	}
 
-  .gallery-section {
-      padding-bottom: 0;
-  }
+	.gallery-section {
+		padding-bottom: 0;
+	}
 }
 /* ---------- Contact Page ---------- */
 
 .contact-page-container {
-    background-color: #9A9F95;
-    color: #37302E;
+	background-color: #9a9f95cc;
+	color: #37302e;
 }
 
 .contact-page-container h2 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 200%;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-family: 'Chango', cursive;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 200%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: "Chango", cursive;
 }
 
 .contact-section-container {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 label {
-    margin-top: 8px;
+	margin-top: 8px;
 }
 
 .form-button {
-    background-color: #d7b380;
-    color: #37302E; 
-    border-color:#37302E;
+	background-color: #d7b380;
+	color: #37302e;
+	border-color: #37302e;
 }
 
 .form-control {
-    font-weight: 100;
-    font-size: 75%;
-    border-radius: 1.25em;
-    color:#37302E;
+	font-weight: 100;
+	font-size: 75%;
+	border-radius: 1.25em;
+	color: #37302e;
 }
 
 .card-title {
-    letter-spacing: 1px;
-    text-decoration: underline;
-    font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: underline;
+    font-family: "Chango", cursive;
 }
 
 .card-text {
-    font-size: 75%;
-    letter-spacing: 1px;
-    font-style: italic;
+	font-size: 75%;
+	letter-spacing: 1px;
+	font-style: italic;
 }
 
 .card img {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 .card img:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 .btn-primary {
-    color: #37302E;
-    background-color: #d7b380;
-    border-color: #37302E;
+	color: #37302e;
+	background-color: #d7b380;
+	border-color: #37302e;
 }
 
 .contact-section-container .card {
-    border: none;
-    background-color: #9A9F95;
+	border: none;
+	background-color: #9a9f95;
 }
 
 .contact-section-container .card-img-top {
-    border-top-right-radius: none;
-    border-top-left-radius: none;
+	border-top-right-radius: none;
+	border-top-left-radius: none;
 }
 
 /* ---------- Footer ---------- */
 
 .footer-icon {
-    text-align: center;
-    padding: 5px 0;
+	text-align: center;
+	padding: 5px 0;
 }
 
 .footer-container {
@@ -438,11 +442,11 @@ label {
 }
 
 .footer-container i {
-    font-size: 300%;
+	font-size: 300%;
 	color: #d2d2d3;
 }
 
 .footer-container p {
-    font-size: 50%;
-    margin: 0 auto;
+	font-size: 50%;
+	margin: 0 auto;
 }
