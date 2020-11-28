@@ -245,12 +245,12 @@ body {
 	padding-left: 0;
 }
 
-.embed-video a {
+.youtube-section a {
 	color: #d7b380;
 	font-size: 80px;
 }
 
-.embed-video .youtube-link {
+.youtube-section .youtube-link {
 	color: #d7b380;
 	font-size: 100%;
 }
@@ -260,20 +260,20 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-	.embed-video a {
+	.youtube-section a {
 		font-size: 120px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.embed-icon {
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 }
 
 @media screen and (min-width: 992px) {
 	.embed-icon {
-		padding-top: 80px;
+		padding-top: 30px;
 	}
 }
 
