@@ -390,7 +390,16 @@ body {
 }
 
 .contact-section-container form {
-    padding: 0 15px 50px 15px;
+    padding: 0 15px 25px 15px;
+    margin-top: 25px;
+    background-color: #9a9f95;
+}
+
+.contact-section-container legend {
+    font-family: 'Chango', cursive;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    padding-top: 5px;
 }
 
 label {
@@ -428,6 +437,10 @@ label {
 
 .card img:hover {
 	opacity: 1;
+}
+
+.contact-info-card {
+    padding: 0;
 }
 
 .btn-primary {
