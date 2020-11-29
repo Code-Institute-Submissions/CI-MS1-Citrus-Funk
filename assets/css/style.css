@@ -83,6 +83,10 @@ hr {
 	border: 0;
 }
 
+.navbar-toggler:focus {
+  outline: none;
+}
+
 .navbar-dark .navbar-nav .nav-link {
 	color: #d2d2d3;
 	letter-spacing: 2px;
@@ -90,16 +94,10 @@ hr {
 	font-size: 80%;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show > .nav-link {
-	color: #d7b380;
-}
-
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: #b6b7b4;
+	color: #d7b380;
+    font-weight: bold;
 }
 
 /* ---------- Home Page ---------- */
