@@ -72,11 +72,18 @@ hr {
 
 .navbar {
 	background-color: #424242;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .logo-image {
-	height: 50px;
-	width: 50px;
+	height: 65px;
+	width: 65px;
 }
 
 .navbar .navbar-toggler {
@@ -159,8 +166,8 @@ hr {
 	padding-top: 50px;
 	padding-bottom: 25px;
 	font-size: 200%;
-	letter-spacing: 3px;
-	text-transform: uppercase;
+	letter-spacing: -1px;
+	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 	margin: 0 auto;
 }
@@ -169,7 +176,7 @@ hr {
 	text-align: center;
 	margin: 0 auto;
 	font-size: 200%;
-	padding-bottom: 25px;
+	padding: 0 12px 25px 12px;
 }
 
 .about-section-container {
@@ -247,8 +254,8 @@ hr {
 	text-align: center;
 	padding-top: 50px;
 	font-size: 200%;
-	letter-spacing: 3px;
-	text-transform: uppercase;
+	letter-spacing: -1px;
+	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 }
 
@@ -289,8 +296,8 @@ hr {
 	text-align: center;
 	padding-top: 50px;
 	font-size: 200%;
-	letter-spacing: 3px;
-	text-transform: uppercase;
+	letter-spacing: -1px;
+	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 }
 
@@ -371,10 +378,9 @@ hr {
 .gallery-page-container h2 {
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
 	font-size: 200%;
-	letter-spacing: 3px;
-	text-transform: uppercase;
+	letter-spacing: -1px;
+	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 }
 
