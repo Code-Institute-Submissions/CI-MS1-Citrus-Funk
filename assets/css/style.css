@@ -288,7 +288,6 @@ hr {
 .music-page-container h2 {
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 10px;
 	font-size: 200%;
 	letter-spacing: 3px;
 	text-transform: uppercase;
@@ -320,23 +319,27 @@ hr {
 	padding-bottom: 50px;
 }
 
+.embed-icon {
+    padding: 0;
+}
+
 @media screen and (min-width: 1200px) {
 	.youtube-section a {
 		font-size: 120px;
 	}
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 	.embed-icon {
 		padding-top: 20px;
 	}
-}
+} */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
 	.embed-icon {
 		padding-top: 30px;
 	}
-}
+} */
 
 /* ---------- Gallery Page ---------- */
 
