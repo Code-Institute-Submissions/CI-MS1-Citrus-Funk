@@ -3,6 +3,10 @@ body {
 	color: #d2d2d3;
 }
 
+hr {
+    border-top: 1px solid #6f31261a;
+}
+
 .anchor {
 	/*-----  <-- Used help from https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors -----*/
 	padding: 10px 0;
@@ -61,7 +65,7 @@ body {
 }
 
 .anchor a {
-	color: #884E44;
+	color: #6f3126;
 }
 
 /* ---------- Navigation ---------- */
@@ -171,7 +175,6 @@ body {
 }
 
 .about-section-container {
-	border: 1px solid #424242;
 	background-color: #9a9f95;
 	padding: 5px 0;
 }
@@ -301,13 +304,18 @@ body {
 }
 
 .youtube-section a {
-	color: #d7b380;
+	color: #6f3126;
 	font-size: 80px;
 }
 
+.youtube-section a:hover, .youtube-section .youtube-link {
+    color: #FF0000;
+}
+
 .youtube-section .youtube-link {
-	color: #d7b380;
+	color: #6f3126;
 	font-size: 100%;
+    font-weight: bold;
 }
 
 .music-section-container {
@@ -474,6 +482,12 @@ label {
 	border-color: #37302e;
 }
 
+.form-button:hover, .form-button:focus {
+    background-color: #6f3126;
+    border: none;
+    box-shadow: none;
+}
+
 .form-control {
 	font-weight: 100;
 	font-size: 75%;
@@ -509,6 +523,12 @@ label {
 	color: #37302e;
 	background-color: #d7b380;
 	border-color: #37302e;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #6f3126;
+    border: none;
+    box-shadow: none;
 }
 
 .contact-section-container .card {
