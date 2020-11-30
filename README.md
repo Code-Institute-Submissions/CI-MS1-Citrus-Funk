@@ -65,19 +65,19 @@ There will be a contact form as well as another external link to a booking websi
 
 ### **Skeleton**
 
-[Wireframes](assets/docs/CitrusFunkWireframes)
+[Wireframes](assets/docs/CitrusFunkWireframes.pdf)
 
-[Home Wireframe](assets/docs/HomePageWireframe) - [Mobile Version](assets/docs/HomePageWireframeMobile)
+[Home Wireframe](assets/docs/HomePageWireframe.pdf) - [Mobile Version](assets/docs/HomePageWireframeMobile.pdf)
 
-[About Wireframe](assets/docs/AboutPageWireframe) - [Mobile Version](assets/docs/AboutPageWireframeMobile)
+[About Wireframe](assets/docs/AboutPageWireframe.pdf) - [Mobile Version](assets/docs/AboutPageWireframeMobile.pdf)
 
-[Repertoire Wireframe](assets/docs/RepertoirePageWireframe) - [Mobile Version](assets/docs/RepertoirePageWireframeMobile)
+[Repertoire Wireframe](assets/docs/RepertoirePageWireframe.pdf) - [Mobile Version](assets/docs/RepertoirePageWireframeMobile.pdf)
 
-[Music Wireframe](assets/docs/MusicPageWireframe) - [Mobile Version](assets/docs/MusicPageWireframeMobile)
+[Music Wireframe](assets/docs/MusicPageWireframe.pdf) - [Mobile Version](assets/docs/MusicPageWireframeMobile.pdf)
 
-[Gallery Wireframe](assets/docs/GalleryPageWireframe) - [Mobile Version](assets/docs/GalleryPageWireframeMobile)
+[Gallery Wireframe](assets/docs/GalleryPageWireframe.pdf) - [Mobile Version](assets/docs/GalleryPageWireframeMobile.pdf)
 
-[Contact Wireframe](assets/docs/ContactPageWireframe) - [Mobile Version](assets/docs/ContactPageWireframeMobile)
+[Contact Wireframe](assets/docs/ContactPageWireframe.pdf) - [Mobile Version](assets/docs/ContactPageWireframeMobile.pdf)
 
 
 - One page site with fixed header
