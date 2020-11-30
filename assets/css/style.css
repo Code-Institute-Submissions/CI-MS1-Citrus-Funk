@@ -110,29 +110,37 @@ hr {
 /* ---------- Home Page ---------- */
 
 .home-page-container {
-	height: 100vh;
+	/* height: 100vh; */
 	background: url(../images/background-image.jpg) no-repeat center center
 		fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	/* display: flex; */
+	/* align-items: center; */
+	/* justify-content: center; */
 	position: relative;
 }
 
+/* @media (orientation: landscape) {
+  .home-page-container {
+	height: 50em;
+}
+} */
+
 .background-header {
-	position: absolute;
-	margin: 0 auto;
-	left: 0;
+	/* position: absolute; */
+	/* margin: 0 auto; */
+	/* left: 0; */
 	text-align: center;
-	top: 25%;
+	/* top: 25%; */
 	font-family: "Chango", cursive;
 	color: #d2d2d3;
 	font-weight: 300;
 	font-size: larger;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
 }
 
 .background-header p {
@@ -145,6 +153,7 @@ hr {
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
+    right: 0;
 }
 
 /* ---------- About Page ---------- */
