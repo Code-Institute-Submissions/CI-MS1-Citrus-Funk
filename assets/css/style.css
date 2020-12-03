@@ -4,7 +4,7 @@ body {
 }
 
 hr {
-    border-top: 1px solid #6f31261a;
+	border-top: 1px solid #6f31261a;
 }
 
 .anchor {
@@ -19,22 +19,18 @@ hr {
 .anchor p {
 	font-size: 100%;
 	color: #424242;
-	/* position: absolute; */
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	/* line-height: 50px; */
 	text-align: center;
-	/* Starting position */
 	-moz-transform: translateX(100%);
 	-webkit-transform: translateX(100%);
 	transform: translateX(100%);
-	/* Apply animation to this element */
 	-moz-animation: anchor 45s linear infinite;
 	-webkit-animation: anchor 45s linear infinite;
 	animation: anchor 45s linear infinite;
 }
-/* Move it (define the animation) */
+
 @-moz-keyframes anchor {
 	0% {
 		-moz-transform: translateX(100%);
@@ -53,13 +49,13 @@ hr {
 }
 @keyframes anchor {
 	0% {
-		-moz-transform: translateX(100%); /* Firefox bug fix */
-		-webkit-transform: translateX(100%); /* Firefox bug fix */
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
 		transform: translateX(100%);
 	}
 	100% {
-		-moz-transform: translateX(-100%); /* Firefox bug fix */
-		-webkit-transform: translateX(-100%); /* Firefox bug fix */
+		-moz-transform: translateX(-100%);
+		-webkit-transform: translateX(-100%);
 		transform: translateX(-100%);
 	}
 }
@@ -72,13 +68,13 @@ hr {
 
 .navbar {
 	background-color: #424242;
-    padding-top: 0;
-    padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .navbar-brand {
-    padding-top: 2px;
-    padding-bottom: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .logo-image {
@@ -91,7 +87,7 @@ hr {
 }
 
 .navbar-toggler:focus {
-  outline: none;
+	outline: none;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -104,13 +100,12 @@ hr {
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
 	color: #d7b380;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 /* ---------- Home Page ---------- */
 
 .home-page-container {
-	/* height: 100vh; */
 	background: url(../images/background-image.jpg) no-repeat center center
 		fixed;
 	background-color: #424242;
@@ -118,30 +113,17 @@ hr {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* display: flex; */
-	/* align-items: center; */
-	/* justify-content: center; */
 	position: relative;
 }
 
-/* @media (orientation: landscape) {
-  .home-page-container {
-	height: 50em;
-}
-} */
-
 .background-header {
-	/* position: absolute; */
-	/* margin: 0 auto; */
-	/* left: 0; */
 	text-align: center;
-	/* top: 25%; */
 	font-family: "Chango", cursive;
 	color: #d2d2d3;
 	font-weight: 300;
 	font-size: larger;
-    padding-top: 25vh;
-    padding-bottom: 25vh;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
 }
 
 .background-header p {
@@ -154,7 +136,7 @@ hr {
 	height: 100%;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
-    right: 0;
+	right: 0;
 }
 
 /* ---------- About Page ---------- */
@@ -177,7 +159,6 @@ hr {
 	padding-bottom: 25px;
 	font-size: 200%;
 	letter-spacing: -1px;
-	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 	margin: 0 auto;
 }
@@ -209,7 +190,6 @@ hr {
 .about-images-container h3 {
 	font-family: "Chango", cursive;
 	padding-top: 20px;
-	/* font-size: 200% */
 }
 
 .about-images-container p {
@@ -244,12 +224,8 @@ hr {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* display: flex;
-	align-items: center;
-	justify-content: center; */
 	position: relative;
 	background-color: #424242;
-    /* color: #37302E; */
 }
 
 .rep-opaque-overlay {
@@ -265,7 +241,6 @@ hr {
 	padding-top: 50px;
 	font-size: 200%;
 	letter-spacing: -1px;
-	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 }
 
@@ -307,7 +282,6 @@ hr {
 	padding-top: 50px;
 	font-size: 200%;
 	letter-spacing: -1px;
-	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 }
 
@@ -322,14 +296,15 @@ hr {
 	font-size: 80px;
 }
 
-.youtube-section a:hover, .youtube-section .youtube-link {
-    color: #FF0000;
+.youtube-section a:hover,
+.youtube-section .youtube-link {
+	color: #ff0000;
 }
 
 .youtube-section .youtube-link {
 	color: #6f3126;
 	font-size: 100%;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .music-section-container {
@@ -337,7 +312,7 @@ hr {
 }
 
 .embed-icon {
-    padding: 0;
+	padding: 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -346,35 +321,17 @@ hr {
 	}
 }
 
-/* @media screen and (min-width: 768px) {
-	.embed-icon {
-		padding-top: 20px;
-	}
-} */
-
-/* @media screen and (min-width: 992px) {
-	.embed-icon {
-		padding-top: 30px;
-	}
-} */
-
 /* ---------- Gallery Page ---------- */
 
 .gallery-page-container {
 	text-align: center;
-	/* background-color: #9A9F95;
-    color: #37302E; */
 	background: url(../images/citrusfunk10.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* display: flex;
-	align-items: center;
-	justify-content: center; */
 	position: relative;
 	background-color: #424242;
-    /* color: #37302E; */
 }
 
 .gallery-opaque-overlay {
@@ -390,7 +347,6 @@ hr {
 	padding-top: 50px;
 	font-size: 200%;
 	letter-spacing: -1px;
-	/* text-transform: uppercase; */
 	font-family: "Chango", cursive;
 }
 
@@ -427,10 +383,6 @@ hr {
 	border-radius: 10%;
 	border: 1px solid #9a9f9580;
 }
-
-/* .gallery-column img:hover {
-    opacity: 1;
-} */
 
 @media screen and (max-width: 992px) {
 	.gallery-column {
@@ -499,10 +451,11 @@ label {
 	border-color: #37302e;
 }
 
-.form-button:hover, .form-button:focus {
-    background-color: #6f3126;
-    border: none;
-    box-shadow: none;
+.form-button:hover,
+.form-button:focus {
+	background-color: #6f3126;
+	border: none;
+	box-shadow: none;
 }
 
 .form-control {
@@ -542,10 +495,11 @@ label {
 	border-color: #37302e;
 }
 
-.btn-primary:hover, .btn-primary:focus {
-    background-color: #6f3126;
-    border: none;
-    box-shadow: none;
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #6f3126;
+	border: none;
+	box-shadow: none;
 }
 
 .contact-section-container .card {
@@ -554,11 +508,6 @@ label {
 	margin-top: 25px;
 	text-align: center;
 }
-
-/* .contact-section-container .card-img-top {
-	border-top-right-radius: none;
-	border-top-left-radius: none;
-} */
 
 @media screen and (max-width: 576px) {
 	.contact-section-container form {
