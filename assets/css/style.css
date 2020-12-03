@@ -554,10 +554,10 @@ label {
 	text-align: center;
 }
 
-.contact-section-container .card-img-top {
+/* .contact-section-container .card-img-top {
 	border-top-right-radius: none;
 	border-top-left-radius: none;
-}
+} */
 
 @media screen and (max-width: 576px) {
 	.contact-section-container form {
