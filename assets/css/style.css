@@ -113,6 +113,7 @@ hr {
 	/* height: 100vh; */
 	background: url(../images/background-image.jpg) no-repeat center center
 		fixed;
+	background-color: #424242;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -247,8 +248,8 @@ hr {
 	align-items: center;
 	justify-content: center; */
 	position: relative;
-	/* background-color: #ccae984d;
-    color: #37302E; */
+	background-color: #424242;
+    /* color: #37302E; */
 }
 
 .rep-opaque-overlay {
@@ -372,8 +373,8 @@ hr {
 	align-items: center;
 	justify-content: center; */
 	position: relative;
-	/* background-color: #ccae984d;
-    color: #37302E; */
+	background-color: #424242;
+    /* color: #37302E; */
 }
 
 .gallery-opaque-overlay {
