@@ -17,15 +17,20 @@ This project is a site for my cousins band, Citrus Funk. It aims to promote thei
 
 ### User Stories
 
->  *"I’ve heard about this band and want to know more about them!*
+First Time Visitor Goals
+1. As a First Time Visitor, I want to easily navigate the site and learn more about the band, who they are and what they play.
+2. As a First Time Visitor, I want to look for the bands music and listen to it to see if I like it. 
+3. As a First Time Visitor, I want to be able to see their social media and reviews of them to see if they are recommended.
 
->  *“I saw them at a gig, where can I find their social media?”*
+Returning Visitor Goals
+1. As a Returning Visitor, I want to find their updated music.
+2. As a Returning Visitor, I want to find the best way to get in contact with the band so I can ask any questions I may have about booking them.
+3. As a Returning Visitor, I want to find how much they cost for an event.
 
->  *“A friend of mine recommended them, how do I book them?”*
-
->  *“I want to be able to see what songs they play and listen to their music.”*
-
->  *“I want to know who they are and where are they from.”*
+Frequent User Goals
+1. As a Frequent User, I want to see updates to their music, shows and availability.
+2. As a Frequent User, I want to check to see what new songs they have put out.
+3. As a Frequent User, I want to book them for a future event.
 
 ### **Strategy**
 
@@ -107,17 +112,23 @@ Typography:
 
 ## Features
 
-Single Page Site
+- Responsive on all device sizes
 
-Fixed Navigation
+- Single Page Site
 
-External PDF links to repertoire and pricing lists
+- Fixed Navigation
 
-Promo Video
+- External PDF links to repertoire and pricing lists
 
-Gallery
+- External link to review/booking site
 
-Contact form
+- Promo Video
+
+- Gallery
+
+- Contact form
+
+- Scrolling text promoting latest music
 
 ## Technologies Used
 
@@ -165,7 +176,9 @@ Contact form
 - Initial home page wireframe had the headings/text right of center. Due to a slight colour clash with the background image I changed it to being left of center.
 - Had an issue with pushing a video as the file was too big. I edited the file and then changed it but still had a problem with the previous commit. [JimLynx](https://github.com/JimLynx) from Code Institute Slack group helped me with this [Stack Overflow link.](
 https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
-
+- As I was working through the site I changed the background colours around several times. I eventually settled on what I felt was most appealing, which includes background images on the repertoire and gallery page sections.
+- Due to the fixed navbar, there was an overlap when I clicked each in page link. This [Stack Overflow link](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) helped me solve the issue. 
+- There was an issue with overlapping text on the home page when viewed on a landscape mobile. To solve this I used trial and error with Chrome Dev Tools and eventually came to the solution of removing the height of the background container and placing top and bottom padding on the header. 
 ---
 
 ## Testing
@@ -174,17 +187,13 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 
 ## Code Validity
 
+HTML [W3C](https://validator.w3.org/)
+
+CSS [W3C](https://jigsaw.w3.org/css-validator/)
+
 ---
 
 ## Deployment
-
----
-
-## Support
-
----
-
-## Acknowledgments
 
 ---
 
@@ -192,12 +201,15 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 
 ### Images and videos
 
-Images are taken from the Citrus Funk social media sites. [Youtube](https://www.youtube.com/channel/UCVdfhJitt4u6PKKVKD81Ldw/featured), [Instagram](https://www.instagram.com/citrusfunkuk/?hl=en), [Facebook.](https://www.facebook.com/citrusfunk/)
+- Images are taken from the Citrus Funk social media sites. [Youtube](https://www.youtube.com/channel/UCVdfhJitt4u6PKKVKD81Ldw/featured), [Instagram](https://www.instagram.com/citrusfunkuk/?hl=en), [Facebook.](https://www.facebook.com/citrusfunk/)
 
 ### Written Content
 
-Content is taken from the Citrus Funk social media sites. [Instagram](https://www.instagram.com/citrusfunkuk/?hl=en), [Facebook.](https://www.facebook.com/citrusfunk/)
+- Content is taken from the Citrus Funk social media sites. [Instagram](https://www.instagram.com/citrusfunkuk/?hl=en), [Facebook.](https://www.facebook.com/citrusfunk/)
 
+### Acknowledgments
+
+### Support
 
 
 ##### ...To Be Updated...
