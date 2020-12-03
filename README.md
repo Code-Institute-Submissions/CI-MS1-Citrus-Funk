@@ -1,5 +1,7 @@
 # **Citrus Funk**
 
+![](assets/images/amiresponsive.png)
+
 ## Overview
 
  Citrus Funk are a five-piece party band based in Leeds, United Kingdom.
@@ -172,7 +174,7 @@ Typography:
 
 [CompressJPEG](https://compressjpeg.com/) - for image compression
 
-[Am I Responsive]
+[Am I Responsive](http://ami.responsivedesign.is/) - for responsive help and README image
 
 Code Institute Course
 
