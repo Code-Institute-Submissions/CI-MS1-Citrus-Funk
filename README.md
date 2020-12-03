@@ -142,11 +142,11 @@ Typography:
 
 [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - for responsive design
 
-[GitPod](https://www.gitpod.io/)
+[GitPod](https://www.gitpod.io/) - Online IDE
 
-[Git](https://git-scm.com/)
+[Git](https://git-scm.com/) - Version Control
 
-[Github](https://github.com/)
+[Github](https://github.com/) - Where Git repositories are stored
 
 [Balsamiq](https://balsamiq.com/) - for wireframes
 
@@ -154,7 +154,6 @@ Typography:
 
 [Google Fonts](https://fonts.google.com/) - for fonts
 
----
 
 ### Resources
 
@@ -168,10 +167,30 @@ Typography:
 
 [YouTube](https://youtube.com) - for general help
 
+[Responsinator](http://www.responsinator.com/) - helping to test responsiveness
+
 
 ---
 
-## Project Barriers and Solutions
+## Testing
+
+- Mobile upwards
+- In page links
+- Contact form
+- External links
+- Responsiveness
+- HTML Validity
+- CSS Validity
+- Contrast colours
+- Code cleaned up
+- Spelling
+- Image sizes
+- Tags
+
+
+
+
+### Project Barriers and Solutions
 
 - Initial home page wireframe had the headings/text right of center. Due to a slight colour clash with the background image I changed it to being left of center.
 - Had an issue with pushing a video as the file was too big. I edited the file and then changed it but still had a problem with the previous commit. [JimLynx](https://github.com/JimLynx) from Code Institute Slack group helped me with this [Stack Overflow link.](
@@ -179,13 +198,14 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 - As I was working through the site I changed the background colours around several times. I eventually settled on what I felt was most appealing, which includes background images on the repertoire and gallery page sections.
 - Due to the fixed navbar, there was an overlap when I clicked each in page link. This [Stack Overflow link](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) helped me solve the issue. 
 - There was an issue with overlapping text on the home page when viewed on a landscape mobile. To solve this I used trial and error with Chrome Dev Tools and eventually came to the solution of removing the height of the background container and placing top and bottom padding on the header. 
----
 
-## Testing
+### Feature To Improve
 
----
+- External links to PDFs have spelling errors and use old band logo. These were provided to me by my cousin who is in the band.
+- The promo vid uses their old logo. Once the band record an update, this could be added.
+- Use a wider variety of icons, such as a trombone for the band members. I was limited to the free FontAwesome icons.
 
-## Code Validity
+### Code Validity
 
 HTML [W3C](https://validator.w3.org/)
 
@@ -198,6 +218,8 @@ CSS [W3C](https://jigsaw.w3.org/css-validator/)
 ---
 
 ## Credits
+
+### Code Snippets
 
 ### Images and videos
 
