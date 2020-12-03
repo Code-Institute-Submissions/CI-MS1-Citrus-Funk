@@ -99,19 +99,13 @@ Images:
 Video:
 - Promo video from Citrus Funk's social media. 
 
-Fonts: 
-- Chango
-- Montserrat
+Typography: 
+- Chango - a fun looking, stand out font matching the bands fun style and also similar to the logo.
+- Montserrat - smart looking font for the informative content of the site.
 
 ---
 
 ## Features
-
-HTML5
-
-CSS3
-
-Bootstrap4
 
 Single Page Site
 
@@ -125,17 +119,35 @@ Gallery
 
 Contact form
 
----
+## Technologies Used
 
-## Resources
+### Languages 
 
-[Image Color](https://image-color.com/) - for color palette
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+[CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries and Programs Used
+
+[Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - for responsive design
+
+[GitPod](https://www.gitpod.io/)
+
+[Git](https://git-scm.com/)
+
+[Github](https://github.com/)
 
 [Balsamiq](https://balsamiq.com/) - for wireframes
 
 [FontAwesome](https://fontawesome.com/) - for icons
 
 [Google Fonts](https://fonts.google.com/) - for fonts
+
+---
+
+### Resources
+
+[Image Color](https://image-color.com/) - for color palette
 
 [CSS Tricks](https://css-tricks.com/) - for general help
 
@@ -153,6 +165,26 @@ Contact form
 - Initial home page wireframe had the headings/text right of center. Due to a slight colour clash with the background image I changed it to being left of center.
 - Had an issue with pushing a video as the file was too big. I edited the file and then changed it but still had a problem with the previous commit. [JimLynx](https://github.com/JimLynx) from Code Institute Slack group helped me with this [Stack Overflow link.](
 https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
+
+---
+
+## Testing
+
+---
+
+## Code Validity
+
+---
+
+## Deployment
+
+---
+
+## Support
+
+---
+
+## Acknowledgments
 
 ---
 
