@@ -4,7 +4,6 @@
 
  Citrus Funk are a five-piece party band based in Leeds, United Kingdom.
 
-
 ---
 
 ## Description
@@ -169,26 +168,86 @@ Typography:
 
 [Responsinator](http://www.responsinator.com/) - helping to test responsiveness
 
+[TinyPNG](https://tinypng.com/) - for image compression
+
+[CompressJPEG](https://compressjpeg.com/) - for image compression
+
+[Am I Responsive]
+
+Code Institute Course
+
+Code Institute Slack Community
+
+Chrome Dev Tools
 
 ---
 
 ## Testing
 
 - Mobile upwards
+
+> used Chrome Dev Tools to continuously check structure and responsiveness from mobile up through to desktop view.
+
 - In page links
+
+> Tested navigation links in navbar for all screen sizes including mobile.
+
 - Contact form
+
+> All form inputs tested to ensure all sections are filled out.
+> Phone number not required as email address is required.
+
 - External links
+
+> Tested scrolling external link throughout page.
+
+> Tested external repertoire pdf link.
+
+> Tested external YouTube links.
+
+> Tested external pricing list pdf.
+
+> Tested external Last Minute Musicians link.
+
+> Tested external social media footer links.
+
 - Responsiveness
+
+> Used [Responsinator](http://www.responsinator.com/) to test responsiveness on different screen sizes.
+
+> Used [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to check site is mobile friendly.
+
 - HTML Validity
+
+> Used [W3C HTML validator](https://validator.w3.org/) to check HTML validity.
+
+>> Found issues with embedded videos. Was corrected.
+
+>> Found issue with form. ID and For not matching as well as incorrect textarea attribute. Were both corrected.
+
 - CSS Validity
+
+> Used [W3C CSS validator](https://jigsaw.w3.org/css-validator/) to check CSS validity.
+
+>> Found a value that isn't recognised. Was removed.
+
 - Contrast colours
+
+> Used [a11y contrast checker](https://color.a11y.com/Contrast/) to check colour contrast.
+
+>> Found one error, which is the small repertoire link on the background colour when the background image page doesn't load.
+
 - Code cleaned up
+
+> Used prettier extension in IDE to clean up the presentation of the code.
+
 - Spelling
+
+> Checked spelling throughout site.
+
 - Image sizes
-- Tags
 
-
-
+> Used [tinyPNG](https://tinypng.com/) and [compressJPEG](https://compressjpeg.com/) to compress images.
 
 ### Project Barriers and Solutions
 
@@ -202,24 +261,43 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 ### Feature To Improve
 
 - External links to PDFs have spelling errors and use old band logo. These were provided to me by my cousin who is in the band.
-- The promo vid uses their old logo. Once the band record an update, this could be added.
+- The promo video uses their old logo. Once the band record an update, this could be added.
 - Use a wider variety of icons, such as a trombone for the band members. I was limited to the free FontAwesome icons.
+- Form submission. (Currently don't have the skills)
 
 ### Code Validity
 
-HTML [W3C](https://validator.w3.org/)
+[HTML W3C Validator](https://validator.w3.org/)
 
-CSS [W3C](https://jigsaw.w3.org/css-validator/)
+[CSS W3C Validator](https://jigsaw.w3.org/css-validator/)
 
 ---
 
 ## Deployment
+
+Deployed on GitHub Pages through the following process:
+
+- Code written on GitPod.
+- Code then pushed to GitHub to be stored in the repository.
+- Under settings of the repository, scrolled to GitHub Pages section.
+- "Master Branch" was selected under the "Source" drop down.
+- The site's URL is then displayed.
 
 ---
 
 ## Credits
 
 ### Code Snippets
+
+[CSS Tricks](https://css-tricks.com/full-page-background-video-styles/) - for help with background video
+
+[Stack Overflow](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) - for help with fixed header overlapping
+
+[Quackit](https://www.quackit.com/css/codes/marquees/) - for help with scrolling text
+
+[W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - for help with gallery
+
+[Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - for use of grid layout and components
 
 ### Images and videos
 
@@ -231,7 +309,9 @@ CSS [W3C](https://jigsaw.w3.org/css-validator/)
 
 ### Acknowledgments
 
-### Support
+- Code Institute Software Development Course
+- Code Institute Slack Community group
+- My mentor [Antonio Rodriguez](https://github.com/AkaAnto)
 
 
 ##### ...To Be Updated...
