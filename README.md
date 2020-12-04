@@ -61,13 +61,13 @@ Defines who the band members are, what's their music and where they can be found
 
 ### **Structure**
 
-I want to structure the site with a combination of images, video and short but informative paragraphs.
+Structured site with a combination of images, video and short but informative paragraphs.
 
-I want the site to link externally to their Youtube and other social media so user's can see and listen to their music.
+External links to their Youtube and other social media so user's can see and listen to their music.
 
-There will also be a external PDF links to their full repertoire and pricing list.
+External PDF links to their full repertoire and pricing lists.
 
-There will be a contact form as well as another external link to a booking website.
+Contact form as well as another external link to a review/booking website.
 
 ### **Skeleton**
 
@@ -162,7 +162,7 @@ Typography:
 
 [CSS Tricks](https://css-tricks.com/) - for general help
 
-[Stack Overflow](https://stackoverflow.com/) - for general help
+[Stack Overflow](https://stackoverflow.com/) - for support
 
 [W3Schools](https://www.w3schools.com/) - for general help
 
@@ -176,7 +176,7 @@ Typography:
 
 [Am I Responsive](http://ami.responsivedesign.is/) - for responsive help and README image
 
-Code Institute Course
+Code Institute Course 
 
 Code Institute Slack Community
 
@@ -186,9 +186,48 @@ Chrome Dev Tools
 
 ## Testing
 
+First Time Visitor Goals
+1. As a First Time Visitor, I want to easily navigate the site and learn more about the band, who they are and what they play.
+- *There is fixed navigation bar which makes navigating the site easy, pointing to sections on who they are and their music.*
+
+2. As a First Time Visitor, I want to look for the bands music and listen to it to see if I like it.
+- *There is a section with the bands Youtube videos where they can listen to their music*
+- *There is a scrolling text link throughout the site where you can view their latest music*
+
+3. As a First Time Visitor, I want to be able to see their social media and reviews of them to see if they are recommended.
+- *Social media links are displayed in the footer of the site*
+- *In the contact page section there is an external link to a site where the band have reviews, there is a header that is clear to see this with.*
+
+Returning Visitor Goals
+1. As a Returning Visitor, I want to find their updated music.
+- *The scrolling text will be the bands latest music, and the music page will be updated with the latest music*
+
+2. As a Returning Visitor, I want to find the best way to get in contact with the band so I can ask any questions I may have about booking them.
+- *The fixed navigation bar makes it easy to find the contact page and on this page there is a contact form that is easy to fill out*
+
+3. As a Returning Visitor, I want to find how much they cost for an event.
+- *On the contact page there is a pricing section, with a clear button that links to the bands price list*
+
+
+Frequent User Goals
+1. As a Frequent User, I want to see updates to their music, shows and availability.
+- *There is updated music throughout the site with the scrolling link as well as a gallery of images and a contact form to ask questions about availability*
+
+2. As a Frequent User, I want to check to see what new songs they have put out.
+- *The site frequently links to the bands Youtube page as well as displays some Youtube videos on the site*
+
+3. As a Frequent User, I want to book them for a future event.
+- *The contact form is clear and easy, you can also view the external link for reviews where you can book the band also*
+ 
+Other Testing
+
 - Mobile upwards
 
 > used Chrome Dev Tools to continuously check structure and responsiveness from mobile up through to desktop view.
+
+- Browsers
+
+> Tested on multiple browsers including the latest Chrome, Safari and Firefox browsers.
 
 - In page links
 
@@ -285,21 +324,36 @@ Deployed on GitHub Pages through the following process:
 - "Master Branch" was selected under the "Source" drop down.
 - The site's URL is then displayed.
 
+Cloning 
+
+- Locate the GitHub Repository.
+- Click the "Code" button.
+- Highlight the "HTTPS" button to clone with HTTPS and copy the link.
+- Open Git Bash
+- Identify location in IDE where you want the cloned directory to be made.
+- Type git clone, and then paste the URL, which is the link thats been copied.
+- Your local clone will be made.
+
+Forking
+
+- To fork the respository, click the fork button that it is situated to the right of the respository title.
+- There will now your own copy in your account.
+
 ---
 
 ## Credits
 
 ### Code Snippets
 
-[CSS Tricks](https://css-tricks.com/full-page-background-video-styles/) - for help with background video
+[CSS Tricks](https://css-tricks.com/full-page-background-video-styles/) - for help with background video.
 
-[Stack Overflow](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) - for help with fixed header overlapping
+[Stack Overflow](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) - for help with fixed header overlapping.
 
-[Quackit](https://www.quackit.com/css/codes/marquees/) - for help with scrolling text
+[Quackit](https://www.quackit.com/css/codes/marquees/) - for help with scrolling text.
 
-[W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - for help with gallery
+[W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - for help with gallery.
 
-[Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - for use of grid layout and components
+[Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - for use of grid layout and components.
 
 ### Images and videos
 
@@ -311,9 +365,6 @@ Deployed on GitHub Pages through the following process:
 
 ### Acknowledgments
 
-- Code Institute Software Development Course
-- Code Institute Slack Community group
-- My mentor [Antonio Rodriguez](https://github.com/AkaAnto)
-
-
-##### ...To Be Updated...
+- Code Institute Software Development Course - for the education.
+- Code Institute Slack Community group - for the suport.
+- My mentor [Antonio Rodriguez](https://github.com/AkaAnto) - for the guidance and support throughout.
