@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
 	font-family: "Montserrat", sans-serif;
 	color: #d2d2d3;
@@ -23,21 +30,11 @@ hr {
 	height: 100%;
 	margin: 0;
 	text-align: center;
-	-moz-transform: translateX(100%);
 	-webkit-transform: translateX(100%);
-	transform: translateX(100%);
-	-moz-animation: anchor 45s linear infinite;
+	-ms-transform: translateX(100%);
+	    transform: translateX(100%);
 	-webkit-animation: anchor 45s linear infinite;
 	animation: anchor 45s linear infinite;
-}
-
-@-moz-keyframes anchor {
-	0% {
-		-moz-transform: translateX(100%);
-	}
-	100% {
-		-moz-transform: translateX(-100%);
-	}
 }
 @-webkit-keyframes anchor {
 	0% {
@@ -49,12 +46,10 @@ hr {
 }
 @keyframes anchor {
 	0% {
-		-moz-transform: translateX(100%);
 		-webkit-transform: translateX(100%);
 		transform: translateX(100%);
 	}
 	100% {
-		-moz-transform: translateX(-100%);
 		-webkit-transform: translateX(-100%);
 		transform: translateX(-100%);
 	}
@@ -109,9 +104,6 @@ hr {
 	background: url(../images/background-image.jpg) no-repeat center center
 		fixed;
 	background-color: #424242;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	position: relative;
 }
@@ -220,9 +212,6 @@ hr {
 .rep-page-container {
 	text-align: center;
 	background: url(../images/citrusfunk9.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	position: relative;
 	background-color: #424242;
@@ -266,7 +255,8 @@ hr {
 .rep-video-container video {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
 /* ---------- Music Page ---------- */
@@ -326,9 +316,6 @@ hr {
 .gallery-page-container {
 	text-align: center;
 	background: url(../images/citrusfunk10.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	position: relative;
 	background-color: #424242;
@@ -353,8 +340,11 @@ hr {
 /* Altered CSS code snippet below from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 
 .gallery-section-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	padding: 42px 0 50px 0;
 }
 
@@ -363,7 +353,9 @@ hr {
 }
 
 .gallery-column {
-	flex: 25%;
+	-webkit-box-flex: 25%;
+	    -ms-flex: 25%;
+	        flex: 25%;
 	max-width: 25%;
 	padding: 0 4px;
 }
@@ -386,14 +378,18 @@ hr {
 
 @media screen and (max-width: 992px) {
 	.gallery-column {
-		flex: 50%;
+		-webkit-box-flex: 50%;
+		    -ms-flex: 50%;
+		        flex: 50%;
 		max-width: 50%;
 	}
 }
 
 @media screen and (max-width: 576px) {
 	.gallery-column {
-		flex: 100%;
+		-webkit-box-flex: 100%;
+		    -ms-flex: 100%;
+		        flex: 100%;
 		max-width: 100%;
 		padding: 0;
 	}
@@ -455,7 +451,8 @@ label {
 .form-button:focus {
 	background-color: #6f3126;
 	border: none;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 
 .form-control {
@@ -499,7 +496,8 @@ label {
 .btn-primary:focus {
 	background-color: #6f3126;
 	border: none;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 
 .contact-section-container .card {
