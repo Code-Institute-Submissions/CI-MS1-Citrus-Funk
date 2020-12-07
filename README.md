@@ -227,7 +227,7 @@ Other Testing
 
 - Mobile upwards
 
-> used Chrome Dev Tools to continuously check structure and responsiveness from mobile up through to desktop view.
+> Used Chrome Dev Tools to continuously check structure and responsiveness from mobile up through to desktop view.
 
 - Browsers
 
@@ -244,11 +244,13 @@ Other Testing
 
 - External links
 
-> Tested scrolling external link throughout page.
+> Tested scrolling external links throughout page.
 
 > Tested external repertoire pdf link.
 
 > Tested external YouTube links.
+
+> Tested external Instagram link.
 
 > Tested external pricing list pdf.
 
@@ -309,9 +311,10 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 
 ### Feature To Improve
 
-- External links to PDFs have spelling errors and use old band logo. These were provided to me by my cousin who is in the band.
-- The promo video uses their old logo. Once the band record an update, this could be added.
+- External links to PDFs have spelling errors and use the old band logo. These were provided to me by my cousin who is in the band.
+- The external promo video uses their old logo. Once the band record an update, this could be added.
 - Use a wider variety of icons, such as a trombone for the band members. I was limited to the free FontAwesome icons.
+- Despite compressing images multiple times and shortening the promo video, the site might be a bit slow.
 - Form submission. (Currently don't have the skills)
 
 ### Code Validity
@@ -339,13 +342,13 @@ Cloning
 - Highlight the "HTTPS" button to clone with HTTPS and copy the link.
 - Open Git Bash
 - Identify location in IDE where you want the cloned directory to be made.
-- Type git clone, and then paste the URL, which is the link thats been copied.
+- Type git clone, and then paste the URL, which is the link that's been copied.
 - Your local clone will be made.
 
 Forking
 
-- To fork the respository, click the fork button that it is situated to the right of the respository title.
-- There will now your own copy in your account.
+- To fork the respository, click the fork button that is situated to the right of the respository title.
+- There will now be your own copy in your account.
 
 ---
 
@@ -374,5 +377,5 @@ Forking
 ### Acknowledgments
 
 - Code Institute Software Development Course - for the education.
-- Code Institute Slack Community group - for the suport.
+- Code Institute Slack Community group - for the support.
 - My mentor [Antonio Rodriguez](https://github.com/AkaAnto) - for the guidance and support throughout.
