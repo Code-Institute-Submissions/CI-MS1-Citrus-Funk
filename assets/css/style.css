@@ -101,7 +101,7 @@ hr {
 /* ---------- Home Page ---------- */
 
 .home-page-container {
-	background: url(../images/background-image.jpg) no-repeat center center
+	background: url(../images/backgroundimage.jpg) no-repeat center center
 		fixed;
 	background-color: #424242;
 	background-size: cover;
