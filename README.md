@@ -1,6 +1,8 @@
-# **Citrus Funk**
+# [**Citrus Funk**](https://jjpickering10.github.io/CI-MS1-Citrus-Funk/)
 
-![](assets/images/amiresponsive.png)
+*Use CTRL+click or CMD+click to open links throughout the README in a new tab*
+
+![Citrus Funk amiresponsive image](assets/images/amiresponsive.png)
 
 ## Overview
 
@@ -176,6 +178,8 @@ Typography:
 
 [Am I Responsive](http://ami.responsivedesign.is/) - for responsive help and README image
 
+[Autoprefixer](https://autoprefixer.github.io/) - adds vendor prefixes to CSS
+
 Code Institute Course 
 
 Code Institute Slack Community
@@ -289,6 +293,10 @@ Other Testing
 - Image sizes
 
 > Used [tinyPNG](https://tinypng.com/) and [compressJPEG](https://compressjpeg.com/) to compress images.
+
+- CSS autoprefixer
+
+> Used [Autoprefixer](https://autoprefixer.github.io/) for CSS code and copied updated code back into style.css file.
 
 ### Project Barriers and Solutions
 
