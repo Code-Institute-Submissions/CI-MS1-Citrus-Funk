@@ -104,8 +104,9 @@ Colour scheme:
 Images:
 - From Citrus Funk's social media.
 
-Video:
-- Promo video from Citrus Funk's social media. 
+Videos:
+- Promo video from Citrus Funk's social media.
+- Embedded Youtube videos from Citrus Funk's Youtube page. 
 
 Typography: 
 - Chango - a fun looking, stand out font matching the bands fun style and also similar to the logo.
@@ -237,6 +238,10 @@ Other Testing
 
 > Tested navigation links in navbar for all screen sizes including mobile.
 
+- Embedded videos
+
+> Tested all embedded Youtube videos to ensure they play.
+
 - Contact form
 
 > All form inputs tested to ensure all sections are filled out.
@@ -261,6 +266,8 @@ Other Testing
 - Responsiveness
 
 > Used [Responsinator](http://www.responsinator.com/) to test responsiveness on different screen sizes.
+
+>> There was an issue with the landscape mobile view. This was fixed and is explained further in "Project Barriers and Solutions" section.
 
 > Used [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to check site is mobile friendly.
 
@@ -321,9 +328,9 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 
 ### Code Validity
 
-[HTML W3C Validator](https://validator.w3.org/)
+[HTML W3C Validator](https://validator.w3.org/) - After fixing errors explained above, result came back: "No errors or warnings to show"
 
-[CSS W3C Validator](https://jigsaw.w3.org/css-validator/)
+[CSS W3C Validator](https://jigsaw.w3.org/css-validator/) - After fixing errors explained above, result came back: "No Error Found"
 
 ---
 
