@@ -97,9 +97,9 @@ Contact form as well as another external link to a review/booking website.
 
 ### **Surface**
 
-Color scheme:
+Colour scheme:
 - Will match the professional photos taken of the band.
-- These colours will be a mix of green, brown, black, grey and white. With hints of red, orange and yellow, matching the logo.
+- These colours will be a mix of green, brown, black, grey and white. With hints of red, turquoise and yellow, matching the logo.
 
 Images:
 - From Citrus Funk's social media.
@@ -143,7 +143,7 @@ Typography:
 
 ### Frameworks, Libraries and Programs Used
 
-[Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - for responsive design
+[Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - for responsive design and grid layout
 
 [GitPod](https://www.gitpod.io/) - Online IDE
 
@@ -192,15 +192,15 @@ Chrome Dev Tools
 
 First Time Visitor Goals
 1. As a First Time Visitor, I want to easily navigate the site and learn more about the band, who they are and what they play.
-- *There is fixed navigation bar which makes navigating the site easy, pointing to sections on who they are and their music.*
+- *There is fixed navigation bar which makes navigating the site easy, pointing to sections on who they are and their music*
 
 2. As a First Time Visitor, I want to look for the bands music and listen to it to see if I like it.
 - *There is a section with the bands Youtube videos where they can listen to their music*
 - *There is a scrolling text link throughout the site where you can view their latest music*
 
 3. As a First Time Visitor, I want to be able to see their social media and reviews of them to see if they are recommended.
-- *Social media links are displayed in the footer of the site*
-- *In the contact page section there is an external link to a site where the band have reviews, there is a header that is clear to see this with.*
+- *Social media links are displayed throughout and in the footer of the site*
+- *In the contact page section there is an external link to a site where the band have reviews, there is a header that is clear to see this with*
 
 Returning Visitor Goals
 1. As a Returning Visitor, I want to find their updated music.
@@ -242,7 +242,7 @@ Other Testing
 > All form inputs tested to ensure all sections are filled out.
 > Phone number not required as email address is required.
 
-- External links
+- External links to open in new tab
 
 > Tested scrolling external links throughout page.
 
@@ -308,6 +308,8 @@ https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-
 - As I was working through the site I changed the background colours around several times. I eventually settled on what I felt was most appealing, which includes background images on the repertoire and gallery page sections.
 - Due to the fixed navbar, there was an overlap when I clicked each in page link. This [Stack Overflow link](https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors) helped me solve the issue. 
 - There was an issue with overlapping text on the home page when viewed on a landscape mobile. To solve this I used trial and error with Chrome Dev Tools and eventually came to the solution of removing the height of the background container and placing top and bottom padding on the header. 
+- The promo video has been cropped to help with the speed of the site.
+- The background image for the home page has been compressed multiple times to try and speed up the site.
 
 ### Feature To Improve
 
